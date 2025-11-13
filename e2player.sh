@@ -3,7 +3,7 @@
 ##setup command=wget https://raw.githubusercontent.com/tarekzoka/os-e2player/main/e2player.sh-O - | /bin/sh
 #
 echo "==============================================="
-echo "       Download And Install Plugin estalker     "
+echo "       Download And Install Plugin e2player     "
 echo "==============================================="
 
 TEMPATH="/tmp"
