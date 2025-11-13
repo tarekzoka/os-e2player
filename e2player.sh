@@ -7,8 +7,7 @@ echo "       Download And Install Plugin e2player     "
 echo "==============================================="
 
 TEMPATH="/tmp"
-OPKGINSTALL="opkg install --force-overwrite"
-MY_IPK="enigma2-plugin-extensions-iptvplayer_v1.0_all.ipk"
+    dpkg -i --force-overwrite $MY_DEB
 MY_DEB="enigma2-plugin-extensions-iptvplayer_v1.0_all.deb"
 MY_URL="https://raw.githubusercontent.com/tarekzoka/os-e2player/main" 
 # Detect system type
