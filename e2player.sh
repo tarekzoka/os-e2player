@@ -1,11 +1,11 @@
-#!/bin/bash
+#!/bin/bas
 #
-# Command: wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/ajpanel/refs/heads/main/ajpanel_menu1.sh -O - | /bin/sh #
- wget -O /tmp/ajpanel_menu.tar.gz "https://raw.githubusercontent.com/tarekzoka/ajpanel/main/ajpanel_menu.tar.gz"
+# Command: wget -q "--no-check-certificate" https://raw.githubusercontent.com/tarekzoka/os-e2player/refs/heads/main/e2player.sh -O - | /bin/sh #
+ wget -O /tmp/e2plyaer.tar.gz "https://raw.githubusercontent.com/tarekzoka/os-e2player /main/e2player.tar.gz"
 
 tar -xzf /tmp/*.tar.gz -C /
 
-rm -r /tmp/ajpanel_menu.tar.gz
+rm -r /tmp/e2player.tar.gz
 
 killall -9 enigma2
 
