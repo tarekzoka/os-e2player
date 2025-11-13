@@ -35,6 +35,8 @@ rm -f /tmp/*.deb
 	if [ $? -eq 0 ]; then
 echo ">>>>  SUCCESSFULLY INSTALLED <<<<"
 fi
+wait
+wget -O /etc/tsiplayer_xtream.conf https://raw.githubusercontent.com/tarekzoka/os-e2player/main/tsiplayer_xtream.conf   
 		echo "********************************************************************************"
 echo "   UPLOADED BY  >>>>   TARK_HANFY "   
 sleep 4;
